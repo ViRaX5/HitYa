@@ -5,7 +5,7 @@ developed for Yuval as a token of our appreciation
 ## Team Members!
 Noam Eilat.\
 Valery Balan.\
-Amit Lachmann.\
+Amit Lachmann.
 
 ## The Game
 You hit a stick-man with a bat as strong as you can so it will travel the farthest. \
