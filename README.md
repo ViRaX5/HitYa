@@ -4,7 +4,7 @@ developed for Yuval as a token of our appreciation
 
 ## Team Members!
 Noam Eilat.\
-Valery Balan.\
+Valeri Balan.\
 Amit Lachmann.
 
 ## The Game
