@@ -22,4 +22,4 @@ Prepare Payment.\
 Prepare Ads.\
 A Commercial For The Game?.\
 Sounds.\
-Figma?.
+Figma?
