@@ -20,9 +20,9 @@ MonoBehaviour:
     m_AutoStart: 1
     m_Loop: 1
   m_WindowTitle:
-    m_Untranslated: Universal 2D Project
+    m_Untranslated: 2D URP Project
   m_Title:
-    m_Untranslated: Welcome to Universal 2D Project
+    m_Untranslated: Welcome to 2D URP Project
   m_Description:
     m_Untranslated: "This project is configured with an empty scene and a default Universal Render Pipeline 2D Renderer to get you started with your 2D Game. \n\nNew to 2D? Click on Explore 2D to learn more.\n\nHave fun!"
   m_MaskEditor: 0
