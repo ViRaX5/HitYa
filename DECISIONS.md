@@ -1,3 +1,9 @@
+## 2026-11-11 - Puase overlay buttons
+Options: Resume / Restart / Home
+Chose: All buttons to give multiple options for the player\
+AI: Wasn't used\
+Who: Amit
+
 ## 2026-10-31 - Daily quests that grant rewards\
 Options: Permanent rewards / Limited time boosts\
 Chose: Limited Time Boosts, makes it fair for new players, they are not behind without a chance to catch up\

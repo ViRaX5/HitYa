@@ -29,4 +29,9 @@ public class PauseMenu : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(""); //need to add valeri's scene here
     }
+
+    public void RetryButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level");
+    }
 }
