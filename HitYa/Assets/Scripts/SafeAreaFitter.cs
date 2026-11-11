@@ -6,12 +6,15 @@ using UnityEngine;
 public class SafeAreaFitter : MonoBehaviour
 {
     Rect lastSafeArea;
+    Vector2Int lastScreenSize;
 
     void Update()
     {
         Rect safe = Screen.safeArea;
-        if (safe == lastSafeArea) return;          // only when it changes
+        var size = new Vector2Int(Screen.width, Screen.height);
+        if (safe == lastSafeArea && size == lastScreenSize) return;          // only when it changes
         lastSafeArea = safe;
+        lastScreenSize = size;
 
         var panel = GetComponent<RectTransform>();
         panel.anchorMin = new Vector2(safe.xMin / Screen.width, safe.yMin / Screen.height);
