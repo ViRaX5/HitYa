@@ -585,6 +585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonClickHandler
   buttonText: {fileID: 654047599}
+  container: {fileID: 0}
+  angleGauge: {fileID: 0}
+  powerBar: {fileID: 0}
 --- !u!1 &489406681
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,6 +618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonClickHandler
   buttonText: {fileID: 654047599}
+  container: {fileID: 0}
+  angleGauge: {fileID: 0}
+  powerBar: {fileID: 0}
 --- !u!4 &489406683
 Transform:
   m_ObjectHideFlags: 0
@@ -2001,7 +2007,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2590\u2590"
+  m_text: PAUSE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
