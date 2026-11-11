@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 339692916}
   - component: {fileID: 339692915}
   - component: {fileID: 339692914}
+  - component: {fileID: 339692917}
   m_Layer: 0
   m_Name: HitButton
   m_TagString: Untagged
@@ -150,6 +151,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 489406683}
   - {fileID: 654047598}
   m_Father: {fileID: 8051520613640476925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -201,7 +203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 339692915}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: fbcc6f7ceb6798846ab1e4da67eae891, type: 3}
+        m_TargetAssemblyTypeName: ButtonClickHandler, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HIT
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &339692915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +254,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339692912}
   m_CullTransparentMesh: 1
+--- !u!114 &339692917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339692912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbcc6f7ceb6798846ab1e4da67eae891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickHandler
+  buttonText: {fileID: 654047599}
+--- !u!1 &489406681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489406683}
+  - component: {fileID: 489406682}
+  m_Layer: 0
+  m_Name: ButtonClickHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &489406682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489406681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbcc6f7ceb6798846ab1e4da67eae891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickHandler
+  buttonText: {fileID: 654047599}
+--- !u!4 &489406683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489406681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 124.265724, y: 892.94653, z: 0}
+  m_LocalScale: {x: 0.6828772, y: 0.6828772, z: 0.6828772}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 339692913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HIT
+  m_text: SET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
