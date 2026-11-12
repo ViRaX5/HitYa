@@ -5,13 +5,15 @@ public class PauseMenu : MonoBehaviour
     public GameObject container;
     public PauseButton PauseButton;
 
+    public ButtonClickHandler ButtonClick;
+
     void Awake()
     {
         container.SetActive(false);
     }
     void Update()
     {
-        if (PauseButton.pause) //escape is for testing
+        if (PauseButton.pause)
         {
             container.SetActive(true);
             Time.timeScale = 0;
@@ -33,5 +35,6 @@ public class PauseMenu : MonoBehaviour
     public void RetryButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level");
+        ButtonClick.playing = false;
     }
 }

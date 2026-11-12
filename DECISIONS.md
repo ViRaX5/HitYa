@@ -1,3 +1,15 @@
+## 2026-12-11 - API Version
+Options: minimum version: version 29 / older than 29 / newer than 29
+Chose: Version 29 as oldest. Got an old phone from Alex because have an Iphone so needed support of older andriod versions but still within the standard\
+AI: Wasn't used\
+Who: Noam
+
+## 2026-12-11 - Package Name
+Options: com.ViRaXGames.HitYa
+Chose: Used my in-game name as a studio name because it is under my repo, game name is game name\
+AI: Wasn't used\
+Who: Amit
+
 ## 2026-11-11 - Puase overlay buttons
 Options: Resume / Restart / Home
 Chose: All buttons to give multiple options for the player\
