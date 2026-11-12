@@ -27,7 +27,7 @@ public class PauseMenu : MonoBehaviour
 
     public void HomeButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(""); //need to add valeri's scene here
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene_Home"); //need to add valeri's scene here
     }
 
     public void RetryButton()
