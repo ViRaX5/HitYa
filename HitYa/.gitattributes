@@ -1,0 +1,12 @@
+# Unity writes its YAML/text assets with LF; keep them LF so Unity saves don't show as changes
+*.asset     text eol=lf
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.mat       text eol=lf
+*.meta      text eol=lf
+*.controller text eol=lf
+*.anim      text eol=lf
+*.json      text eol=lf
+*.inputactions text eol=lf
+*.shadergraph text eol=lf
+*.cs        text eol=lf
