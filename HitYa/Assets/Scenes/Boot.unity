@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 229421162}
   - component: {fileID: 229421161}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SceneLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,8 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115b728c6f34b974c9f9da7446336608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  loadingSceneIndex: 5
-  loadOnStart: 0
+  loadOnStart: 1
   startSceneIndex: 1
 --- !u!4 &229421162
 Transform:

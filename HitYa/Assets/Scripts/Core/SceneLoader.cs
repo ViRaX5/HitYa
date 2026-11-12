@@ -4,15 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Handles asynchronous scene loading with loading screen transitions.
+/// Handles asynchronous scene loading.
 /// Singleton that persists across scenes. Maintains navigation history stack.
 /// </summary>
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance;
-
-    [Header("Loading Screen Scene Index")]
-    [SerializeField] int loadingSceneIndex = 1;
 
     [Header("Optional Boot Behavior")]
     [SerializeField] bool loadOnStart = false;
@@ -23,9 +20,12 @@ public class SceneLoader : MonoBehaviour
     private readonly Stack<int> history = new();
     public int PreviousSceneIndex => history.Count > 0 ? history.Peek() : -1;
 
-    // Set to true before calling LoadScene to keep the loading screen visible
-    // until the caller sets it back to false (e.g. while pre-fetching data).
+    // Keep scene activation paused until the caller finishes pre-fetching data.
     public static bool HoldActivation = false;
+
+    // True on extra copies (e.g. a SceneLoader on a button in another scene).
+    // They don't load anything themselves; they forward calls to the Boot instance.
+    bool isProxy = false;
 
     void Awake()
     {
@@ -34,37 +34,34 @@ public class SceneLoader : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else Destroy(gameObject);
+        else isProxy = true;
     }
 
     void Start()
     {
+        if (isProxy) return;
         if (loadOnStart) LoadScene(startSceneIndex);
     }
 
     public void LoadScene(int sceneIndex)
     {
+        if (isProxy) { Instance.LoadScene(sceneIndex); return; }
         if (isLoading) return;
 
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        if (currentScene != loadingSceneIndex)
-            history.Push(currentScene);
+        history.Push(currentScene);
 
         targetSceneIndex = sceneIndex;
         isLoading = true;
-        SceneManager.LoadScene(loadingSceneIndex);
+        StartCoroutine(AsyncLoadRoutine());
     }
 
     public void GoBack()
     {
+        if (isProxy) { Instance.GoBack(); return; }
         if (isLoading || history.Count == 0) return;
         targetSceneIndex = history.Pop();
         isLoading = true;
-        SceneManager.LoadScene(loadingSceneIndex);
-    }
-
-    public void StartAsyncLoad()
-    {
         StartCoroutine(AsyncLoadRoutine());
     }
 
@@ -78,12 +75,8 @@ public class SceneLoader : MonoBehaviour
         // Wait while caller is pre-fetching data (e.g. after restart)
         while (HoldActivation) yield return null;
 
-        if (LoadingSceneController.Instance != null)
-            LoadingSceneController.Instance.OnSceneReady(() => { async.allowSceneActivation = true; isLoading = false; });
-        else
-        {
-            async.allowSceneActivation = true;
-            isLoading = false;
-        }
+        async.allowSceneActivation = true;
+        while (!async.isDone) yield return null;
+        isLoading = false;
     }
 }

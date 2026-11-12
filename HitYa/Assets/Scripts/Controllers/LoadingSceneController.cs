@@ -3,8 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 /// <summary>
-/// Controls the loading screen transition between scenes.
-/// Works with SceneLoader to manage fade-out timing when async scene loading completes.
+/// Optional loading-screen transition controller.
 /// </summary>
 public class LoadingSceneController : MonoBehaviour
 {
@@ -18,11 +17,6 @@ public class LoadingSceneController : MonoBehaviour
     {
         if (Instance != null) { Destroy(gameObject); return; }
         Instance = this;
-    }
-
-    void Start()
-    {
-        SceneLoader.Instance.StartAsyncLoad();
     }
 
     public void OnSceneReady(Action callback)
