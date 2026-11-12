@@ -15,3 +15,6 @@ During each round you will earn points/gold you can spend on upgrades to the bat
 As you progress, you level up, giving you points you can use to upgrade the stick-man stats/bounciness.\
 There will be daily quests that grant you a limited time power-up/multiplier for the score, based on the quest's difficulty.\
 And More (features and details that gives the game more depth). 🏏🚶‍♂️‍➡️
+
+# Recording and screenshots for Milestone 2:
+https://drive.google.com/drive/folders/1G64X6NFM81XLDe_l3rAP5Q_RN46nhx2G?usp=sharing
