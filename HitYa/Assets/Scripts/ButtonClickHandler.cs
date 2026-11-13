@@ -17,13 +17,13 @@ public class ButtonClickHandler : MonoBehaviour
 
     void Start()
     {
-        distance.text = "";
+        // distance.text = "";
         powerBar.SetActive(false);
     }
 
     void Update()
     {
-        if(playing && !PauseButton.pause)
+        if (playing && !PauseButton.pause)
         {
             dis++;      //should be delta time thingy
             distance.text = "Distance: " + dis;
@@ -31,21 +31,24 @@ public class ButtonClickHandler : MonoBehaviour
     }
 
     public void OnButtonClick()
-    {   
-        if(buttonText != null){
-            if(buttonText.text == "SET"){
+    {
+        if (buttonText != null)
+        {
+            if (buttonText.text == "SET")
+            {
                 buttonText.text = "HIT";
                 angleGauge.SetActive(false);
                 powerBar.SetActive(true);
             }
-            else{
+            else
+            {
                 button.SetActive(false);
                 powerBar.SetActive(false);
                 distance.text = "Distance: " + dis;
                 playing = true;
             }
-                
+
         }
-        
+
     }
 }
