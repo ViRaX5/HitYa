@@ -24,7 +24,7 @@ public class ButtonClickHandler : MonoBehaviour
 
     void Update()
     {
-        if (playing && !PauseButton.pause)
+        if (playing)
         {
             dis++;      //should be delta time thingy
             distance.text = "Distance: " + dis;
@@ -51,6 +51,16 @@ public class ButtonClickHandler : MonoBehaviour
 
         }
 
+    }
+
+    public void PausedClicked()
+    {
+        playing = false;
+    }
+
+    public void ResumeClicked()
+    {
+        playing = true;
     }
 
     // Temporary end-of-run hook until landing and game-over logic are implemented.

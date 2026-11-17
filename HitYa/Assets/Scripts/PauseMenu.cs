@@ -3,27 +3,35 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject container;
-    public PauseButton PauseButton;
+    //public PauseButton PauseButton;
 
     public ButtonClickHandler ButtonClick;
 
-    void Awake()
+    [SerializeField] GameObject pauseMenu;
+
+    //void Awake()
+    //{
+    //    container.SetActive(false);
+    //}
+    //void Update()
+    //{
+    //    if (PauseButton.pause)
+    //    {
+    //        container.SetActive(true);
+    //        Time.timeScale = 0;
+    //    }
+    //}
+
+    public void Pause()
     {
-        container.SetActive(false);
-    }
-    void Update()
-    {
-        if (PauseButton.pause)
-        {
-            container.SetActive(true);
-            Time.timeScale = 0;
-        }
+        Time.timeScale = 0;
+        pauseMenu.SetActive(true);
     }
 
     public void ResumeButton()
     {
-        PauseButton.pause = false;
-        container.SetActive(false);
+        //PauseButton.pause = false;
+        pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
 
