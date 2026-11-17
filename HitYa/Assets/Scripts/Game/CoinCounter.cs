@@ -10,9 +10,9 @@ public class CoinCounter : MonoBehaviour
 
     public void Add(int amount)              // a button: On Click () → CoinCounter.Add, 10
     {
-        Services.Save.SetInt("coins", Services.Save.GetInt("coins") + amount);
+        Services.Coins.AddCoins(amount);
         Show();
     }
 
-    void Show() => label.text = Services.Save.GetInt("coins").ToString();
+    void Show() => label.text = Services.Coins.Balance.ToString();
 }

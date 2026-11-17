@@ -638,7 +638,6 @@ GameObject:
   - component: {fileID: 339692916}
   - component: {fileID: 339692915}
   - component: {fileID: 339692914}
-  - component: {fileID: 339692917}
   m_Layer: 0
   m_Name: HitButton
   m_TagString: Untagged
@@ -760,25 +759,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339692912}
   m_CullTransparentMesh: 1
---- !u!114 &339692917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339692912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbcc6f7ceb6798846ab1e4da67eae891, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickHandler
-  distance: {fileID: 0}
-  buttonText: {fileID: 654047599}
-  button: {fileID: 0}
-  angleGauge: {fileID: 0}
-  powerBar: {fileID: 0}
-  PauseButton: {fileID: 0}
-  playing: 0
 --- !u!1 &398185787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,9 +2188,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1076740470}
-        m_TargetAssemblyTypeName: ScreenFlow, Assembly-CSharp
-        m_MethodName: Back
+      - m_Target: {fileID: 845726191}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: HomeButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

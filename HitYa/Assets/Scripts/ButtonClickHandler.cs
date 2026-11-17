@@ -14,6 +14,7 @@ public class ButtonClickHandler : MonoBehaviour
     public bool playing = false;
 
     private int dis = 0;
+    private bool rewardClaimed = false;
 
     void Start()
     {
@@ -50,5 +51,21 @@ public class ButtonClickHandler : MonoBehaviour
 
         }
 
+    }
+
+    // Temporary end-of-run hook until landing and game-over logic are implemented.
+    public void FinishRun()
+    {
+        if (!playing || rewardClaimed) return;
+        if (Services.Coins == null)
+        {
+            Debug.LogError("Coin service is unavailable. Start the game from Bootstrap.");
+            return;
+        }
+
+        int reward = Services.Coins.AwardForDistance(dis);
+        rewardClaimed = true;
+        playing = false;
+        Debug.Log($"Run finished at distance {dis}: earned {reward} coins.");
     }
 }

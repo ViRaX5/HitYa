@@ -2,5 +2,6 @@
 public static class Services
 {
     public static ISaveService Save { get; set; }
+    public static ICoinService Coins { get; set; }
 }
 
