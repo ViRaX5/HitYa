@@ -14,16 +14,17 @@ public class ButtonClickHandler : MonoBehaviour
     public bool playing = false;
 
     private int dis = 0;
+    private bool rewardClaimed = false;
 
     void Start()
     {
-        distance.text = "";
+        // distance.text = "";
         powerBar.SetActive(false);
     }
 
     void Update()
     {
-        if(playing && !PauseButton.pause)
+        if (playing && !PauseButton.pause)
         {
             dis++;      //should be delta time thingy
             distance.text = "Distance: " + dis;
@@ -31,21 +32,40 @@ public class ButtonClickHandler : MonoBehaviour
     }
 
     public void OnButtonClick()
-    {   
-        if(buttonText != null){
-            if(buttonText.text == "SET"){
+    {
+        if (buttonText != null)
+        {
+            if (buttonText.text == "SET")
+            {
                 buttonText.text = "HIT";
                 angleGauge.SetActive(false);
                 powerBar.SetActive(true);
             }
-            else{
+            else
+            {
                 button.SetActive(false);
                 powerBar.SetActive(false);
                 distance.text = "Distance: " + dis;
                 playing = true;
             }
-                
+
         }
-        
+
+    }
+
+    // Temporary end-of-run hook until landing and game-over logic are implemented.
+    public void FinishRun()
+    {
+        if (!playing || rewardClaimed) return;
+        if (Services.Coins == null)
+        {
+            Debug.LogError("Coin service is unavailable. Start the game from Bootstrap.");
+            return;
+        }
+
+        int reward = Services.Coins.AwardForDistance(dis);
+        rewardClaimed = true;
+        playing = false;
+        Debug.Log($"Run finished at distance {dis}: earned {reward} coins.");
     }
 }

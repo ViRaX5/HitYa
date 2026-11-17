@@ -29,12 +29,15 @@ public class PauseMenu : MonoBehaviour
 
     public void HomeButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene_Home"); //need to add valeri's scene here
+        ButtonClick.FinishRun();
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 
     public void RetryButton()
     {
+        ButtonClick.FinishRun();
+        Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level");
-        ButtonClick.playing = false;
     }
 }
