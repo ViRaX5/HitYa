@@ -40,6 +40,7 @@ There will be daily quests that grant you a limited time power-up/multiplier for
 - Don't invent APIs. If unsure about an SDK or Unity API, say so and point to the docs.
 - Don't change Player Settings, package name, API levels or build settings unless asked.
 - Keep changes small and explain what you changed and why.
+- Write code only the way it is already written in the project's scripts. If something new is needed (an API, syntax or pattern not used yet), explain what it is and why before adding it.
 - Never commit secrets (keystores, passwords, API keys).
 - Screens use Services, never PlayerPrefs
 - Decisions are logged in `DECISIONS.md` (newest first), in this format:

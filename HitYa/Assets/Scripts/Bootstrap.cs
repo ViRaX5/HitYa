@@ -10,6 +10,7 @@ public class Bootstrap : MonoBehaviour
 
         // Start every service here, in order (next follow-along)
         Services.Save = new PlayerPrefsSaveService();
+        Services.Settings = new SettingsService(Services.Save);
         Services.Coins = new CoinService(Services.Save);
 
         Debug.Log("Bootstrap: services ready");
