@@ -1,3 +1,10 @@
+## 2026-11-18 - Coin service and distance rewards
+Decision: Add a coin service as the second service. It calculates rewards for distance milestones and uses the save service to keep the coin balance between sessions.\
+Rewards: 5 coins at 500 distance, 10 more at 1,000, and 20 more at 1,500; a run reaching 1,500 earns 35 coins in total.\
+Why: Rewarding distance gives players an incentive to travel farther, while a separate service keeps coin calculations and storage separate from the game screens.\
+AI: Assisted with implementing the service; the distance milestones and cumulative rewards were chosen by the user.
+Who: valeri
+
 ## 2026-12-11 - API Version
 Options: minimum version: version 29 / older than 29 / newer than 29
 Chose: Version 29 as oldest. Got an old phone from Alex because have an Iphone so needed support of older andriod versions but still within the standard\
@@ -26,25 +33,25 @@ Who: Noam for initial thought and the entire team for the refinement
 Options: A bar appears with a quick real time evemt / Visual effects on the character during the perfect hit window / Haptics for the duration of the window\
 Chose: Visual effects and Haptics, don't overload with bars (that we have at the start), intuitive to understand, takes time to master. Mixing haptics with visual give additional stimuli to react to\ 
 AI: Wasn't used\
-Who: Noam and Valery initial thought, Valery and Amit refinement
+Who: Noam and Valeri initial thought, Valeri and Amit refinement
 
 ## 2026-10-31 - Keep the loop from being stale\
 Options: Background changes / Music changes
 Chose: Combination of both, using both makes it rewarding to travel further, the visual makes it prettier/makes it alive, music brings energy\
 AI: Wasn't used\
-Who: Valery for background, Noam for Music
+Who: Valeri for background, Noam for Music
 
 ## 2026-10-31 - Include progression system for the core loop\
 Options: Prestige that reset and grants points to spend on a skill tree / Unlocking new levels\
 Chose: Unlocking new levels, keeps it simple and rewarding, progress isn't lost, easy to implement\\
 AI: Wasn't used\
-Who: Valery and Amit
+Who: Valeri and Amit
 
 ## 2026-10-31 - Include a second chance feature\
 Options: Opt in to watch an ad to get the bobus / pay to get the bonus / no second chance\
 Choice: Opt in ad, still gives you the option to get the reward/extra bounce, but isn't abused with money, must spend time to get it\
 AI: Wasn't used\
-Who: Valery and Amit
+Who: Valeri and Amit
 
 ## 2026-10-31 - Mid flight engagement\
 Options: Taps to keep him flying / Objects flying towards him\
@@ -62,7 +69,7 @@ Who: Everyone
 Options: Keep certain upgrades behind a paywall / Only unlocks by playing / Buy using in-game currency that you can get by playing or buy/watch ads to speed things up\
 Choice: Buy using in-game currency, makes it fair for everyone, you don't have to pay/watch ads, but it may speed things up\
 AI: Wasn't used\
-Who: Valery and Amit
+Who: Valeri and Amit
 
 ## 2026-10-31 - Start of the round mechanic\
 Options: Bar for strength and bar for angle that you need to click at the right time / Eyeball the angle, tap fast in a short window of the for strength\
