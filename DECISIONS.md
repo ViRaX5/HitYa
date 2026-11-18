@@ -1,7 +1,7 @@
 ## 18-11-2026 - Settings (SoundOn) is saved through ISaveService
-Options: The Settings service writes to PlayerPrefs itself / The Sound toggle on Home uses PlayerPrefs directly / The Settings service saves through ISaveService
-Chose: Through ISaveService. The Settings service only says "save this int under this key", and only PlayerPrefsSaveService knows it is PlayerPrefs. If we move to another kind of save later (a file, the cloud) we change one class and the Settings and Coins services stay the same. Screens like the Sound toggle only talk to Services.Settings, never to PlayerPrefs, which is also the rule in AGENTS.md. The price is that ISaveService only stores ints, so SoundOn is saved as 1/0 and defaults to on when nothing is saved yet\
-AI: Claude wrote the code for ISettingsService, SettingsService and the Sound toggle, explained it line by line, and drafted the wording of this entry. I chose the design, reviewed the code and tested that the toggle keeps its state. Claude's note: storing a bool as 1/0 is a small workaround, if more bool settings come we could add GetBool/SetBool to ISaveService\
+Options: The Settings service writes to PlayerPrefs by itself / The Sound toggle uses PlayerPrefs directly / The Settings service saves through ISaveService
+Chose: Through ISaveService. Only PlayerPrefsSaveService knows we save to PlayerPrefs, so if we ever change how we save (a file, the cloud) we change one class and the Settings and Coins services stay the same. The Sound toggle only talks to Services.Settings and never to PlayerPrefs, like the rule in AGENTS.md. The downside is that ISaveService only saves ints, so SoundOn is saved as 1/0 and is on by default\
+AI: Claude wrote the SettingsService and SoundToggle code and the first draft of this entry. I decided the design, checked it, and tested that the toggle keeps its state\
 Who: Noam
 
 ## 18-11-2026 - Coin service and distance rewards
