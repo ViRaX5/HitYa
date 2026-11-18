@@ -16,5 +16,8 @@ As you progress, you level up, giving you points you can use to upgrade the stic
 There will be daily quests that grant you a limited time power-up/multiplier for the score, based on the quest's difficulty.\
 And More (features and details that gives the game more depth). 🏏🚶‍♂️‍➡️
 
+## Architecture
+The game starts in the Bootstrap scene (first in the Scene List). Bootstrap starts the services in order (Save, Settings, Coins) and only then opens Home. Home leads to Level. The Services assembly never references the Game assembly.
+
 # Recording and screenshots for Milestone 2:
 https://drive.google.com/drive/folders/1G64X6NFM81XLDe_l3rAP5Q_RN46nhx2G?usp=sharing
