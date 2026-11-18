@@ -20,7 +20,10 @@ public class CoinService : ICoinService
 
     public int AwardForDistance(int distance)
     {
-        int reward = distance >= 1500 ? 20 : distance >= 1000 ? 10 : distance >= 500 ? 5 : 0;
+        int reward = 0;
+        if (distance >= 500) reward += 5;
+        if (distance >= 1000) reward += 10;
+        if (distance >= 1500) reward += 20;
         AddCoins(reward);
         return reward;
     }
