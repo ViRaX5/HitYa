@@ -18,7 +18,7 @@ public class SettingsService : ISettingsService
         set
         {
             save.SetInt(SoundOnKey, value ? 1 : 0);
-            Debug.Log($"SoundOn set to {value}");
+            save.SetAudioListenerPause(SoundOnKey, !value ? 1 : 0); // Pause the AudioListener when sound is off
         }
     }
 }
