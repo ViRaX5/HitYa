@@ -1,3 +1,9 @@
+## 2026-11-18 - Coin service and distance rewards
+Decision: Add a coin service as the second service. It calculates rewards for distance milestones and uses the save service to keep the coin balance between sessions.\
+Rewards: 5 coins at 500 distance, 10 more at 1,000, and 20 more at 1,500; a run reaching 1,500 earns 35 coins in total.\
+Why: Rewarding distance gives players an incentive to travel farther, while a separate service keeps coin calculations and storage separate from the game screens.\
+AI: Assisted with implementing the service; the distance milestones and cumulative rewards were chosen by the user.
+
 ## 2026-12-11 - API Version
 Options: minimum version: version 29 / older than 29 / newer than 29
 Chose: Version 29 as oldest. Got an old phone from Alex because have an Iphone so needed support of older andriod versions but still within the standard\
