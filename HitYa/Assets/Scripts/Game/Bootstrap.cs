@@ -13,6 +13,8 @@ public class Bootstrap : MonoBehaviour
         Services.Settings = new SettingsService(Services.Save);
         Services.Coins = new CoinService(Services.Save);
 
+        AudioListener.pause = !Services.Settings.SoundOn;    // apply the saved sound setting on start
+
         Debug.Log("Bootstrap: services ready");
         SceneManager.LoadScene("Home");      // only now: the first screen
     }

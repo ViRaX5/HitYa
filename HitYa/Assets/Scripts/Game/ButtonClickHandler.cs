@@ -3,13 +3,13 @@ using TMPro;
 
 public class ButtonClickHandler : MonoBehaviour
 {
-    public TextMeshProUGUI distance;
-    public TextMeshProUGUI buttonText;
-    public GameObject button;
-    public GameObject angleGauge;
-    public GameObject powerBar;
+    [SerializeField] TextMeshProUGUI distance;
+    [SerializeField] TextMeshProUGUI buttonText;
+    [SerializeField] GameObject button;
+    [SerializeField] GameObject angleGauge;
+    [SerializeField] GameObject powerBar;
 
-    public PauseButton PauseButton;
+    [SerializeField] PauseButton PauseButton;
 
     public bool playing = false;
 
