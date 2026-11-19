@@ -69,13 +69,13 @@ public class ButtonClickHandler : MonoBehaviour
     public void FinishRun()
     {
         if (!runStarted || rewardClaimed) return;
-        if (Services.Coins == null)
+        if (GameSystems.Coins == null)
         {
             Debug.LogError("Coin service is unavailable. Start the game from Bootstrap.");
             return;
         }
 
-        int reward = Services.Coins.AwardForDistance(dis);
+        int reward = GameSystems.Coins.AwardForDistance(dis);
         rewardClaimed = true;
         playing = false;
         Debug.Log($"Run finished at distance {dis}: earned {reward} coins.");
