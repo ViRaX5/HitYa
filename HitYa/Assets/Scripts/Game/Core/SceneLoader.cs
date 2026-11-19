@@ -29,6 +29,9 @@ public class SceneLoader : MonoBehaviour
 
     void Awake()
     {
+        // Unity calls Awake even when this component is disabled.
+        if (!enabled) return;
+
         if (Instance == null)
         {
             Instance = this;
