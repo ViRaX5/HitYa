@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject container;
+    [SerializeField] GameObject container;
     //public PauseButton PauseButton;
 
-    public ButtonClickHandler ButtonClick;
+    [SerializeField] ButtonClickHandler ButtonClick;
 
     [SerializeField] GameObject pauseMenu;
 
