@@ -8,13 +8,5 @@ public class PlayerPrefsSaveService : ISaveService
         PlayerPrefs.SetInt(key, value);
         PlayerPrefs.Save();                  // write now: the phone may close us any time
     }
-
-    public bool GetAudioListenerPause() => AudioListener.pause;
-
-    public void SetAudioListenerPause(string key, int value)
-    {
-        AudioListener.pause = (value == 1);
-        PlayerPrefs.Save();
-    }
 }
 

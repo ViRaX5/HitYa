@@ -60,4 +60,11 @@ There will be daily quests that grant you a limited time power-up/multiplier for
 
 ## Conventions
 
-- [Naming, code style, where scripts go - fill in as a team]
+- Where scripts go: scripts that belong to a screen or the scene flow (MonoBehaviours such as `SoundToggle`, `ScreenFlow`, `Bootstrap`) go in `Scripts/Game/`. Services and their interfaces go in `Scripts/Services/`. Code in `Services/` must never use anything from `Game/`.
+- Naming: classes, interfaces, methods and properties are `PascalCase`. Interfaces start with `I` (`ICoinService`). A service implementation is named after what it does (`CoinService`, `SettingsService`, `PlayerPrefsSaveService`). One class per file, and the file is named like the class.
+- Fields: private fields and locals are `camelCase`, constants are `PascalCase` (`CoinsKey`). References set in the Inspector are written `[SerializeField] Type name;` and are not `public`.
+- Code style: 4-space indent, opening brace on its own line, `using` lines at the top of the file. Don't reformat existing lines just to change the style.
+- Services: screens only use the `Services` class (`Services.Coins`, `Services.Settings`, `Services.Save`). A new service gets an interface, an implementation, a property in `Services.cs`, and is created in `Bootstrap.Awake()`. A service that needs to save gets `ISaveService` in its constructor.
+- Saving: only `PlayerPrefsSaveService` touches `PlayerPrefs`. `ISaveService` only saves ints (a bool is 1/0).
+- Scenes: scenes are loaded by name (`"Home"`, `"Level"`) and must be in the Scene List.
+- Comments: short comments that say what a script is for and which button or event it connects to, as in the existing scripts.
