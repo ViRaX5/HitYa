@@ -28,14 +28,14 @@ There will be daily quests that grant you a limited time power-up/multiplier for
 
 - Scene flow (build order): `Bootstrap` (index 0) → `Home` → `Level`.
   - `Bootstrap`: only `Bootstrap.cs`. Marks itself `DontDestroyOnLoad`, creates the services in order (Save, Settings, Coins), then loads `Home`.
-  - `Home`: main menu. Shows the coin balance (`CoinCounter`) and a gem display (UI only, no script or service behind it yet). `SoundToggle` on the Sound toggle reads and writes `Services.Settings.SoundOn`. Play button → `ScreenFlow.Play()` loads `Level`.
-  - `Level`: gameplay. `ButtonClickHandler` runs the SET (angle) → HIT (power) → flight/distance loop. The pause button calls `PauseMenu.Pause()` (freezes time, shows the menu) and `ButtonClickHandler.PausedClicked()`. Resume calls `PauseMenu.ResumeButton()` and `ButtonClickHandler.ResumeClicked()`. Home and Retry call `FinishRun()` (awards coins for the distance milestones), then load `Home` or `Level`.
+  - `Home`: main menu. Shows the coin balance (`CoinCounter`) and a gem display (UI only, no script or service behind it yet). `SoundToggle` on the Sound toggle reads and writes `Services.Settings.SoundOn`. Play button → `ScreenFlow.Play()` loads `Level`. `BackgroundMusic` keeps the music object across scenes, and changing `Services.Settings.SoundOn` can pause or resume the `AudioListener`.
+  - `Level`: gameplay. `ButtonClickHandler` runs the SET (angle) → HIT (power) flow and a placeholder distance counter that increases each frame; real character flight and landing are not implemented yet. The pause button calls `PauseMenu.Pause()` (freezes time, shows the menu) and `ButtonClickHandler.PausedClicked()`. Resume calls `PauseMenu.ResumeButton()` and `ButtonClickHandler.ResumeClicked()`. Home and Retry call `FinishRun()` (awards coins for the distance milestones), then load `Home` or `Level`.
 - Assemblies:
   - `Services` (`Scripts/Services/Services.asmdef`) references nothing.
-  - `Game` (`Scripts/Game.asmdef`) covers the rest of `Scripts/` and references `Services`, TextMesh Pro, UnityEngine.UI and Input System.
+  - `Game` (`Scripts/Game/Game.asmdef`) covers `Scripts/Game/` and its subfolders and references `Services`, TextMesh Pro, UnityEngine.UI and Input System.
   - `Services` must never reference `Game`.
 - Init order: services are created in `Bootstrap.Awake()`. Always enter Play Mode from the `Bootstrap` scene, otherwise `Services` is null. A Multiplayer Play Mode configuration (`Assets/Settings/PlayMode/Bootstrap.asset`) starts Play Mode from `Bootstrap`, but which configuration is active is saved per machine in `UserSettings` (not committed), so check it is selected.
-- Scripts live in `HitYa/Assets/Scripts/` (`Core/`, `Controllers/`, `Game/`, `Services/`, plus some loose scripts at the root).
+- Scripts live in `HitYa/Assets/Scripts/Game/` (including `Core/` and `Controllers/`) and `HitYa/Assets/Scripts/Services/`.
 - Also in the project, currently unused: `Boot` scene with `SceneLoader`, `LoadingSceneController`, `SampleScene`, `PauseButton.cs` (its `pressedPause()` is no longer wired to any button).
 
 ## Rules for AI
