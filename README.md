@@ -21,3 +21,7 @@ The game starts in the Bootstrap scene (first in the Scene List). Bootstrap star
 
 # Recording and screenshots for Milestone 2:
 https://drive.google.com/drive/folders/1G64X6NFM81XLDe_l3rAP5Q_RN46nhx2G?usp=sharing
+
+# Architecture Diagram for Milestone 3:
+<img width="800" height="533" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/a3951145-b07d-49f3-b929-5ce5e8aad8fc" />
+
