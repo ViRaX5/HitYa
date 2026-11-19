@@ -9,8 +9,6 @@ public class ButtonClickHandler : MonoBehaviour
     [SerializeField] GameObject angleGauge;
     [SerializeField] GameObject powerBar;
 
-    [SerializeField] PauseButton PauseButton;
-
     public bool playing = false;
 
     private int dis = 0;
