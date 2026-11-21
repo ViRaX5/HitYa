@@ -2,25 +2,9 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField] GameObject container;
-    //public PauseButton PauseButton;
-
     [SerializeField] ButtonClickHandler ButtonClick;
 
     [SerializeField] GameObject pauseMenu;
-
-    //void Awake()
-    //{
-    //    container.SetActive(false);
-    //}
-    //void Update()
-    //{
-    //    if (PauseButton.pause)
-    //    {
-    //        container.SetActive(true);
-    //        Time.timeScale = 0;
-    //    }
-    //}
 
     public void Pause()
     {
@@ -30,7 +14,6 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeButton()
     {
-        //PauseButton.pause = false;
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
