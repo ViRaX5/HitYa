@@ -5,7 +5,8 @@
         "Services",
         "Unity.TextMeshPro",
         "Unity.InputSystem",
-        "UnityEngine.UI"
+        "UnityEngine.UI",
+        "Unity.Splines"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
