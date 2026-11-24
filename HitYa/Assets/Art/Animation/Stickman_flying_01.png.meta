@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 7375e2db34e38a343bd06da1038a7afa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5223159984296929922
+    second: Stickmn_flying_01_0
+  - first:
+      213: -2420048626358001750
+    second: Stickmn_flying_01_1
+  - first:
+      213: 7818684406246361803
+    second: Stickmn_flying_01_2
+  - first:
+      213: 1937605033598019
+    second: Stickmn_flying_01_3
+  - first:
+      213: -2763498178977048133
+    second: Stickmn_flying_01_4
+  - first:
+      213: -5156769128361634864
+    second: Stickmn_flying_01_5
+  - first:
+      213: -1643130693099148653
+    second: Stickmn_flying_01_6
+  - first:
+      213: 8476904904592058948
+    second: Stickmn_flying_01_7
+  - first:
+      213: -3422826217376372134
+    second: Stickmn_flying_01_8
+  - first:
+      213: 8107543458558048927
+    second: Stickmn_flying_01_9
+  - first:
+      213: -916742572666662626
+    second: Stickmn_flying_01_10
+  - first:
+      213: 2115846894995560508
+    second: Stickmn_flying_01_11
+  - first:
+      213: -6186962087224510891
+    second: Stickmn_flying_01_12
+  - first:
+      213: -4127403874719339971
+    second: Stickmn_flying_01_13
+  - first:
+      213: 8535026863021614633
+    second: Stickmn_flying_01_14
+  - first:
+      213: -4972549196334734642
+    second: Stickmn_flying_01_15
+  - first:
+      213: 8576870108553811669
+    second: Stickmn_flying_01_16
+  - first:
+      213: -7001599785810930825
+    second: Stickmn_flying_01_17
+  - first:
+      213: -5371011037367252294
+    second: Stickmn_flying_01_18
+  - first:
+      213: 3844557109970724850
+    second: Stickmn_flying_01_19
+  - first:
+      213: 3097328409464742199
+    second: Stickmn_flying_01_20
+  - first:
+      213: -3416539447691069969
+    second: Stickmn_flying_01_21
+  - first:
+      213: -6587273597601324573
+    second: Stickmn_flying_01_22
+  - first:
+      213: 9200881022343646689
+    second: Stickmn_flying_01_23
+  - first:
+      213: -6239809598527107838
+    second: Stickmn_flying_01_24
+  - first:
+      213: -8903071802402060895
+    second: Stickmn_flying_01_25
+  - first:
+      213: -1814966297480436015
+    second: Stickmn_flying_01_26
+  - first:
+      213: -7880073413409989856
+    second: Stickmn_flying_01_27
+  - first:
+      213: -6278003613181423132
+    second: Stickmn_flying_01_28
+  - first:
+      213: -2785268624585282113
+    second: Stickmn_flying_01_29
+  - first:
+      213: 998280334246192639
+    second: Stickmn_flying_01_30
+  - first:
+      213: 1508918283145801171
+    second: Stickmn_flying_01_31
+  - first:
+      213: 6198722565161389328
+    second: Stickmn_flying_01_32
+  - first:
+      213: 5451070080958552784
+    second: Stickmn_flying_01_33
+  - first:
+      213: -2776243000453999184
+    second: Stickmn_flying_01_34
+  - first:
+      213: 2250786113906074256
+    second: Stickmn_flying_01_35
+  - first:
+      213: 2148981209469777133
+    second: Stickmn_flying_01_36
+  - first:
+      213: -8834978135085628364
+    second: Stickmn_flying_01_37
+  - first:
+      213: 5696449981413983539
+    second: Stickmn_flying_01_38
+  - first:
+      213: -42565655291873246
+    second: Stickmn_flying_01_39
+  - first:
+      213: -3685398454930267325
+    second: Stickmn_flying_01_40
+  - first:
+      213: -1901105381395853036
+    second: Stickmn_flying_01_41
+  - first:
+      213: 5926444044123060683
+    second: Stickmn_flying_01_42
+  - first:
+      213: -8722818517003400457
+    second: Stickmn_flying_01_43
+  - first:
+      213: -3187712608441195336
+    second: Stickmn_flying_01_44
+  - first:
+      213: -6992500388663897270
+    second: Stickmn_flying_01_45
+  - first:
+      213: 6845377354119002394
+    second: Stickmn_flying_01_46
+  - first:
+      213: -7723810080226551156
+    second: Stickmn_flying_01_47
+  - first:
+      213: -7022819350125489025
+    second: Stickmn_flying_01_48
+  - first:
+      213: 205813543790830418
+    second: Stickmn_flying_01_49
+  - first:
+      213: -1826418308022192972
+    second: Stickmn_flying_01_50
+  - first:
+      213: 2907568601918666931
+    second: Stickmn_flying_01_51
+  - first:
+      213: 4610822568439028779
+    second: Stickmn_flying_01_52
+  - first:
+      213: -1027658212206170365
+    second: Stickmn_flying_01_53
+  - first:
+      213: -6325959501669793708
+    second: Stickmn_flying_01_54
+  - first:
+      213: -762284127264364519
+    second: Stickmn_flying_01_55
+  - first:
+      213: -940400876541355968
+    second: Stickmn_flying_01_56
+  - first:
+      213: 7456689598318357396
+    second: Stickmn_flying_01_57
+  - first:
+      213: -3696562943886636317
+    second: Stickmn_flying_01_58
+  - first:
+      213: 1191984584700746297
+    second: Stickmn_flying_01_59
+  - first:
+      213: 4712067872206226666
+    second: Stickmn_flying_01_60
+  - first:
+      213: 3019630858088692008
+    second: Stickmn_flying_01_61
+  - first:
+      213: 6859600314629186451
+    second: Stickmn_flying_01_62
+  - first:
+      213: 1779674386427680268
+    second: Stickmn_flying_01_63
+  - first:
+      213: 237296217149120793
+    second: Stickmn_flying_01_64
+  - first:
+      213: -3553550874139061582
+    second: Stickmn_flying_01_65
+  - first:
+      213: -1806437449810156867
+    second: Stickmn_flying_01_66
+  - first:
+      213: 1051825367821370992
+    second: Stickmn_flying_01_67
+  - first:
+      213: 7276595649983399938
+    second: Stickmn_flying_01_68
+  - first:
+      213: 5102009047126352342
+    second: Stickmn_flying_01_69
+  - first:
+      213: 4946518420247301481
+    second: Stickmn_flying_01_70
+  - first:
+      213: -1654658351493740958
+    second: Stickmn_flying_01_71
+  - first:
+      213: -831520531953296222
+    second: Stickmn_flying_01_72
+  - first:
+      213: 7833043375585529972
+    second: Stickmn_flying_01_73
+  - first:
+      213: 8737950380543610127
+    second: Stickmn_flying_01_74
+  - first:
+      213: -6335870333615164986
+    second: Stickmn_flying_01_75
+  - first:
+      213: -910219237183177585
+    second: Stickmn_flying_01_76
+  - first:
+      213: 6820210447689783425
+    second: Stickmn_flying_01_77
+  - first:
+      213: 4293494471244559785
+    second: Stickmn_flying_01_78
+  - first:
+      213: -8527637644390355886
+    second: Stickmn_flying_01_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stickmn_flying_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28aad0d05546c7840800000000000000
+      internalID: 5223159984296929922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf52c6a8924a6ed0800000000000000
+      internalID: -2420048626358001750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca4335da0c818c60800000000000000
+      internalID: 7818684406246361803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c1eb3dd32e60000800000000000000
+      internalID: 1937605033598019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb952a04c0516a9d0800000000000000
+      internalID: -2763498178977048133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3dd4bacc97f68b0800000000000000
+      internalID: -5156769128361634864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aa84e175d6239e0800000000000000
+      internalID: -1643130693099148653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ae9f0291404a570800000000000000
+      internalID: 8476904904592058948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a2361b0bdaf70d0800000000000000
+      internalID: -3422826217376372134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9af468e1d7c38070800000000000000
+      internalID: 8107543458558048927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d9bdbc731743f0800000000000000
+      internalID: -916742572666662626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38d25f6a8ffc5d10800000000000000
+      internalID: 2115846894995560508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5567c28f2ce732aa0800000000000000
+      internalID: -6186962087224510891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_13
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a68ca3b0488b6c0800000000000000
+      internalID: -4127403874719339971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926e1de16b1827670800000000000000
+      internalID: 8535026863021614633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_flying_01_15
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec260540ad4fdfab0800000000000000
+      internalID: -4972549196334734642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 93497d5a4fff2524c893ec3a528a2568
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":320.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stickmn_flying_01_0: 5223159984296929922
+      Stickmn_flying_01_1: -2420048626358001750
+      Stickmn_flying_01_10: -916742572666662626
+      Stickmn_flying_01_11: 2115846894995560508
+      Stickmn_flying_01_12: -6186962087224510891
+      Stickmn_flying_01_13: -4127403874719339971
+      Stickmn_flying_01_14: 8535026863021614633
+      Stickmn_flying_01_15: -4972549196334734642
+      Stickmn_flying_01_2: 7818684406246361803
+      Stickmn_flying_01_3: 1937605033598019
+      Stickmn_flying_01_4: -2763498178977048133
+      Stickmn_flying_01_5: -5156769128361634864
+      Stickmn_flying_01_6: -1643130693099148653
+      Stickmn_flying_01_7: 8476904904592058948
+      Stickmn_flying_01_8: -3422826217376372134
+      Stickmn_flying_01_9: 8107543458558048927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

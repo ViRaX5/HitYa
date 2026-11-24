@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: d2257355531175b47a02140145886d81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 999147966015555763
+    second: Stickmn_walking_01_0
+  - first:
+      213: -133500446237063896
+    second: Stickmn_walking_01_1
+  - first:
+      213: -2664495774980915096
+    second: Stickmn_walking_01_2
+  - first:
+      213: 2140435405328887320
+    second: Stickmn_walking_01_3
+  - first:
+      213: 6973547102218275810
+    second: Stickmn_walking_01_4
+  - first:
+      213: 175938106316223405
+    second: Stickmn_walking_01_5
+  - first:
+      213: 5664450094404048512
+    second: Stickmn_walking_01_6
+  - first:
+      213: -8951650444312154572
+    second: Stickmn_walking_01_7
+  - first:
+      213: -4255651931374051659
+    second: Stickmn_walking_01_8
+  - first:
+      213: 4008976278243800880
+    second: Stickmn_walking_01_9
+  - first:
+      213: -121403974630476419
+    second: Stickmn_walking_01_10
+  - first:
+      213: 6914527685433686067
+    second: Stickmn_walking_01_11
+  - first:
+      213: 3706939949823925082
+    second: Stickmn_walking_01_12
+  - first:
+      213: 6746673987329074506
+    second: Stickmn_walking_01_13
+  - first:
+      213: -340549796703752934
+    second: Stickmn_walking_01_14
+  - first:
+      213: 5260260876487427332
+    second: Stickmn_walking_01_15
+  - first:
+      213: -4098114337931041507
+    second: Stickmn_walking_01_16
+  - first:
+      213: -1292622056034378218
+    second: Stickmn_walking_01_17
+  - first:
+      213: 123338598754712438
+    second: Stickmn_walking_01_18
+  - first:
+      213: 6590064677246804731
+    second: Stickmn_walking_01_19
+  - first:
+      213: -6612365432670273329
+    second: Stickmn_walking_01_20
+  - first:
+      213: 5071065680936765002
+    second: Stickmn_walking_01_21
+  - first:
+      213: 8469509856325630309
+    second: Stickmn_walking_01_22
+  - first:
+      213: 2138968579243545663
+    second: Stickmn_walking_01_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stickmn_walking_01_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8496808cfaddd00800000000000000
+      internalID: 999147966015555763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8250fac2d06b52ef0800000000000000
+      internalID: -133500446237063896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860cbb2b53fc50bd0800000000000000
+      internalID: -2664495774980915096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e2c4f19aa54bd10800000000000000
+      internalID: 2140435405328887320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebcc2c542407c060800000000000000
+      internalID: 6973547102218275810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3fe6986ce017200800000000000000
+      internalID: 175938106316223405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_6
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08691ec695b2c9e40800000000000000
+      internalID: 5664450094404048512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 657
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e6e49495955c380800000000000000
+      internalID: -8951650444312154572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be9eb6ad13e0f4c0800000000000000
+      internalID: -4255651931374051659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 337
+        width: 117
+        height: 252
+      alignment: 9
+      pivot: {x: 0.45726496, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03770b14faeb2a730800000000000000
+      internalID: 4008976278243800880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7574d17abfa05ef0800000000000000
+      internalID: -121403974630476419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_11
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338f0ef8b4655ff50800000000000000
+      internalID: 6914527685433686067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_12
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b95f08e32b17330800000000000000
+      internalID: 3706939949823925082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a452e1efe3001ad50800000000000000
+      internalID: 6746673987329074506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2423a3cf164bf0800000000000000
+      internalID: -340549796703752934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_15
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 337
+        width: 117
+        height: 252
+      alignment: 9
+      pivot: {x: 0.45726496, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4050be8a563300940800000000000000
+      internalID: 5260260876487427332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d156faee8b29027c0800000000000000
+      internalID: -4098114337931041507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e5c31b61faf0ee0800000000000000
+      internalID: -1292622056034378218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_18
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b7ed55dcf26b100800000000000000
+      internalID: 123338598754712438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_19
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2252688ec947b50800000000000000
+      internalID: 6590064677246804731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_20
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0cd9c3ca82c34a0800000000000000
+      internalID: -6612365432670273329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4609e08e5b006640800000000000000
+      internalID: 5071065680936765002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56975f7475eb98570800000000000000
+      internalID: 8469509856325630309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_walking_01_23
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34988f07942fad10800000000000000
+      internalID: 2138968579243545663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3b79315fe54f22d41b264afa2be86495
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":256.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stickmn_walking_01_0: 999147966015555763
+      Stickmn_walking_01_1: -133500446237063896
+      Stickmn_walking_01_10: -121403974630476419
+      Stickmn_walking_01_11: 6914527685433686067
+      Stickmn_walking_01_12: 3706939949823925082
+      Stickmn_walking_01_13: 6746673987329074506
+      Stickmn_walking_01_14: -340549796703752934
+      Stickmn_walking_01_15: 5260260876487427332
+      Stickmn_walking_01_16: -4098114337931041507
+      Stickmn_walking_01_17: -1292622056034378218
+      Stickmn_walking_01_18: 123338598754712438
+      Stickmn_walking_01_19: 6590064677246804731
+      Stickmn_walking_01_2: -2664495774980915096
+      Stickmn_walking_01_20: -6612365432670273329
+      Stickmn_walking_01_21: 5071065680936765002
+      Stickmn_walking_01_22: 8469509856325630309
+      Stickmn_walking_01_23: 2138968579243545663
+      Stickmn_walking_01_3: 2140435405328887320
+      Stickmn_walking_01_4: 6973547102218275810
+      Stickmn_walking_01_5: 175938106316223405
+      Stickmn_walking_01_6: 5664450094404048512
+      Stickmn_walking_01_7: -8951650444312154572
+      Stickmn_walking_01_8: -4255651931374051659
+      Stickmn_walking_01_9: 4008976278243800880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

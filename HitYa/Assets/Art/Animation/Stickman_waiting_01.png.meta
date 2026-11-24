@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: ee6ad12b3e7e68d498d580ef41edb368
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7216092673582992093
+    second: Stickmn_waiting_01_0
+  - first:
+      213: -476594031478127630
+    second: Stickmn_waiting_01_1
+  - first:
+      213: -7012972371339823332
+    second: Stickmn_waiting_01_2
+  - first:
+      213: 6953038257807009292
+    second: Stickmn_waiting_01_3
+  - first:
+      213: -34543442540773404
+    second: Stickmn_waiting_01_4
+  - first:
+      213: -2398909222903632347
+    second: Stickmn_waiting_01_5
+  - first:
+      213: 8272474591322836041
+    second: Stickmn_waiting_01_6
+  - first:
+      213: 8023469019016186398
+    second: Stickmn_waiting_01_7
+  - first:
+      213: 8826581673813356235
+    second: Stickmn_waiting_01_8
+  - first:
+      213: -6278911097806134853
+    second: Stickmn_waiting_01_9
+  - first:
+      213: -8657229412089176446
+    second: Stickmn_waiting_01_10
+  - first:
+      213: 2189770105828346267
+    second: Stickmn_waiting_01_11
+  - first:
+      213: -8640245828608334371
+    second: Stickmn_waiting_01_12
+  - first:
+      213: 880192759064326881
+    second: Stickmn_waiting_01_13
+  - first:
+      213: -4541122720418746247
+    second: Stickmn_waiting_01_14
+  - first:
+      213: -8750078990829302216
+    second: Stickmn_waiting_01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32579c422f94bdb90800000000000000
+      internalID: -7216092673582992093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3cca3e04cc269f0800000000000000
+      internalID: -476594031478127630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1739aad8caecae90800000000000000
+      internalID: -7012972371339823332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06a94ae4772e7060800000000000000
+      internalID: 6953038257807009292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efb90a0ce6458ff0800000000000000
+      internalID: -34543442540773404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eab6095cc55bed0800000000000000
+      internalID: -2398909222903632347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_6
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c0e35bfcbbdc270800000000000000
+      internalID: 8272474591322836041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1acfc80096195f60800000000000000
+      internalID: 8023469019016186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce2e9064415e7a70800000000000000
+      internalID: 8826581673813356235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1e107af93dcd8a0800000000000000
+      internalID: -6278911097806134853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e5c59b7b75bd780800000000000000
+      internalID: -8657229412089176446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_11
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b990ba13f40a36e10800000000000000
+      internalID: 2189770105828346267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_12
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5efb5623ea71880800000000000000
+      internalID: -8640245828608334371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e276e1a6a2173c00800000000000000
+      internalID: 880192759064326881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9703cf712f0baf0c0800000000000000
+      internalID: -4541122720418746247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_waiting_01_15
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec20b8489719680800000000000000
+      internalID: -8750078990829302216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c1c20522826c1e4e94b70f3289c1c90
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":256.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stickmn_waiting_01_0: -7216092673582992093
+      Stickmn_waiting_01_1: -476594031478127630
+      Stickmn_waiting_01_10: -8657229412089176446
+      Stickmn_waiting_01_11: 2189770105828346267
+      Stickmn_waiting_01_12: -8640245828608334371
+      Stickmn_waiting_01_13: 880192759064326881
+      Stickmn_waiting_01_14: -4541122720418746247
+      Stickmn_waiting_01_15: -8750078990829302216
+      Stickmn_waiting_01_2: -7012972371339823332
+      Stickmn_waiting_01_3: 6953038257807009292
+      Stickmn_waiting_01_4: -34543442540773404
+      Stickmn_waiting_01_5: -2398909222903632347
+      Stickmn_waiting_01_6: 8272474591322836041
+      Stickmn_waiting_01_7: 8023469019016186398
+      Stickmn_waiting_01_8: 8826581673813356235
+      Stickmn_waiting_01_9: -6278911097806134853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

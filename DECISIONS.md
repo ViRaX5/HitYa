@@ -1,3 +1,9 @@
+## 24-11-2026 - Stickman sprite frame sizes
+Options: Keep the wider flying frames / crop the flying poses to 117 x 252 px / scale down the flying artwork
+Chose: Use 117 x 252 px frames for afraid, waiting, and walking. Keep the 320 x 320 px flying frames so the poses and motion trails stay intact.\
+AI: Measured the pose bounds, updated the upright sprite rectangles, and verified the saved frame sizes.\
+Who: User
+
 ## 18-11-2026 - Settings (SoundOn) is saved through ISaveService
 Options: The Settings service writes to PlayerPrefs by itself / The Sound toggle uses PlayerPrefs directly / The Settings service saves through ISaveService
 Chose: Through ISaveService. Only PlayerPrefsSaveService knows we save to PlayerPrefs, so if we ever change how we save (a file, the cloud) we change one class and the Settings and Coins services stay the same. The Sound toggle only talks to Services.Settings and never to PlayerPrefs, like the rule in AGENTS.md. The downside is that ISaveService only saves ints, so SoundOn is saved as 1/0 and is on by default\

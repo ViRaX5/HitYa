@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 51170c749a002dd4b836fac830704288
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 807322564452845794
+    second: Stickmn_afraid_01_0
+  - first:
+      213: 1996610197945779646
+    second: Stickmn_afraid_01_1
+  - first:
+      213: -6420928832987376323
+    second: Stickmn_afraid_01_2
+  - first:
+      213: 205563601270746218
+    second: Stickmn_afraid_01_3
+  - first:
+      213: -1180597584752527619
+    second: Stickmn_afraid_01_4
+  - first:
+      213: 434817227579421529
+    second: Stickmn_afraid_01_5
+  - first:
+      213: -1447902018097308818
+    second: Stickmn_afraid_01_6
+  - first:
+      213: -904050023345641023
+    second: Stickmn_afraid_01_7
+  - first:
+      213: 8434127252483033593
+    second: Stickmn_afraid_01_8
+  - first:
+      213: 7307280728369948795
+    second: Stickmn_afraid_01_9
+  - first:
+      213: -5119530047394617697
+    second: Stickmn_afraid_01_10
+  - first:
+      213: -8881949393999677729
+    second: Stickmn_afraid_01_11
+  - first:
+      213: 5340098727992443771
+    second: Stickmn_afraid_01_12
+  - first:
+      213: -7996567179596893243
+    second: Stickmn_afraid_01_13
+  - first:
+      213: -6619738820259051051
+    second: Stickmn_afraid_01_14
+  - first:
+      213: -2756480732981638139
+    second: Stickmn_afraid_01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e88e51589f243b00800000000000000
+      internalID: 807322564452845794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb50b73856265bb10800000000000000
+      internalID: 1996610197945779646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3559b5fe3744e6a0800000000000000
+      internalID: -6420928832987376323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c2e78910f4ad200800000000000000
+      internalID: 205563601270746218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6342270ccad9fe0800000000000000
+      internalID: -1180597584752527619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9537718f6f7c80600800000000000000
+      internalID: 434817227579421529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_6
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b1dbd29c408ebe0800000000000000
+      internalID: -1447902018097308818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 337
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ac4b2b4b2473f0800000000000000
+      internalID: -904050023345641023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f941badc0a0c0570800000000000000
+      internalID: 8434127252483033593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b786c885b1da86560800000000000000
+      internalID: 7307280728369948795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ea1cdb86c3f8b0800000000000000
+      internalID: -5119530047394617697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_11
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd637a1b51afcb480800000000000000
+      internalID: -8881949393999677729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_12
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7341830087db1a40800000000000000
+      internalID: 5340098727992443771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3749d848c760190800000000000000
+      internalID: -7996567179596893243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d98898ad96f124a0800000000000000
+      internalID: -6619738820259051051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stickmn_afraid_01_15
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ccb68b0630fb9d0800000000000000
+      internalID: -2756480732981638139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a17aa56b94bf5a944ad928739447b424
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":2.0},"gridSpriteSize":{"x":256.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stickmn_afraid_01_0: 807322564452845794
+      Stickmn_afraid_01_1: 1996610197945779646
+      Stickmn_afraid_01_10: -5119530047394617697
+      Stickmn_afraid_01_11: -8881949393999677729
+      Stickmn_afraid_01_12: 5340098727992443771
+      Stickmn_afraid_01_13: -7996567179596893243
+      Stickmn_afraid_01_14: -6619738820259051051
+      Stickmn_afraid_01_15: -2756480732981638139
+      Stickmn_afraid_01_2: -6420928832987376323
+      Stickmn_afraid_01_3: 205563601270746218
+      Stickmn_afraid_01_4: -1180597584752527619
+      Stickmn_afraid_01_5: 434817227579421529
+      Stickmn_afraid_01_6: -1447902018097308818
+      Stickmn_afraid_01_7: -904050023345641023
+      Stickmn_afraid_01_8: 8434127252483033593
+      Stickmn_afraid_01_9: 7307280728369948795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
