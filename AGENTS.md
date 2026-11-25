@@ -21,14 +21,15 @@ There will be daily quests that grant you a limited time power-up/multiplier for
   - Unity MCP (`com.coplaydev.unity-mcp`) for AI editor access
 - Services (static `Services` class):
   - `Services.Save`: `ISaveService`, implemented by `PlayerPrefsSaveService`
-  - `Services.Settings`: `ISettingsService`, implemented by `SettingsService` (`SoundOn`, on by default, saved through `ISaveService`)
-  - `Services.Coins`: `ICoinService`, implemented by `CoinService` (balance + distance rewards)
+  - `Services.Settings`: `ISettingsService`, implemented by `SettingsService` (`SoundOn` is the mute switch, on by default; `MusicVolume` is 0-100, default 100, with a `MusicVolumeChanged` event; both saved through `ISaveService`)
+  - `Services.Config`: `IConfigService`, implemented by `ScriptableObjectConfigService`, gives `Economy`, the `EconomyConfig` asset (every economy number)
+  - `GameSystems.Coins`: `ICoinService`, implemented by `CoinService` (balance + distance rewards). Lives in the Game assembly, not in `Services`.
 
 ## Architecture
 
 - Scene flow (build order): `Bootstrap` (index 0) → `Home` → `Level`.
-  - `Bootstrap`: only `Bootstrap.cs`. Marks itself `DontDestroyOnLoad`, creates the services in order (Save, Settings, Coins), then loads `Home`.
-  - `Home`: main menu. Shows the coin balance (`CoinCounter`) and a gem display (UI only, no script or service behind it yet). `SoundToggle` on the Sound toggle reads and writes `Services.Settings.SoundOn`. Play button → `ScreenFlow.Play()` loads `Level`. `BackgroundMusic` keeps the music object across scenes, and changing `Services.Settings.SoundOn` can pause or resume the `AudioListener`.
+  - `Bootstrap`: only `Bootstrap.cs`. Marks itself `DontDestroyOnLoad`, creates the services in order (Save, Settings, Coins, Config), then loads `Home`. It has a `[SerializeField] EconomyConfig economy` slot for the config asset.
+  - `Home`: main menu. Shows the coin balance (`CoinCounter`) and a gem display (UI only, no script or service behind it yet). `SoundToggle` on the Sound toggle reads and writes `Services.Settings.SoundOn`. Play button → `ScreenFlow.Play()` loads `Level`. The gear button (`SettingsMenu.Open()`) opens the settings panel: `MusicVolumeSlider` sets `MusicVolume`, and the sound toggle is the mute switch (the slider shows 0 and the waves icon hides while muted or at volume 0). X or the dimmed area calls `SettingsMenu.Close()`. `BackgroundMusic` keeps the music object across scenes, sets its volume from `MusicVolume` and follows `MusicVolumeChanged`. Changing `Services.Settings.SoundOn` pauses or resumes the `AudioListener`.
   - `Level`: gameplay. `ButtonClickHandler` runs the SET (angle) → HIT (power) flow and a placeholder distance counter that increases each frame; real character flight and landing are not implemented yet. The pause button calls `PauseMenu.Pause()` (freezes time, shows the menu) and `ButtonClickHandler.PausedClicked()`. Resume calls `PauseMenu.ResumeButton()` and `ButtonClickHandler.ResumeClicked()`. Home and Retry call `FinishRun()` (awards coins for the distance milestones), then load `Home` or `Level`.
 - Assemblies:
   - `Services` (`Scripts/Services/Services.asmdef`) references nothing.
@@ -36,7 +37,6 @@ There will be daily quests that grant you a limited time power-up/multiplier for
   - `Services` must never reference `Game`.
 - Init order: services are created in `Bootstrap.Awake()`. Always enter Play Mode from the `Bootstrap` scene, otherwise `Services` is null. A Multiplayer Play Mode configuration (`Assets/Settings/PlayMode/Bootstrap.asset`) starts Play Mode from `Bootstrap`, but which configuration is active is saved per machine in `UserSettings` (not committed), so check it is selected.
 - Scripts live in `HitYa/Assets/Scripts/Game/` (including `Core/` and `Controllers/`) and `HitYa/Assets/Scripts/Services/`.
-- Also in the project, currently unused: `Boot` scene with `SceneLoader`, `LoadingSceneController`, `SampleScene`, `PauseButton.cs` (its `pressedPause()` is no longer wired to any button).
 
 ## Rules for AI
 
@@ -47,6 +47,7 @@ There will be daily quests that grant you a limited time power-up/multiplier for
 - Keep changes small and explain what you changed and why.
 - Write code only the way it is already written in the project's scripts. If something new is needed (an API, syntax or pattern not used yet), explain what it is and why before adding it.
 - Never commit secrets (keystores, passwords, API keys).
+- Every new art, audio or font file is added to `CREDITS.md` with where it came from.
 - Screens use Services, never PlayerPrefs
 - Decisions are logged in `DECISIONS.md` (newest first), in this format (dates are day first):
 
@@ -64,7 +65,8 @@ There will be daily quests that grant you a limited time power-up/multiplier for
 - Naming: classes, interfaces, methods and properties are `PascalCase`. Interfaces start with `I` (`ICoinService`). A service implementation is named after what it does (`CoinService`, `SettingsService`, `PlayerPrefsSaveService`). One class per file, and the file is named like the class.
 - Fields: private fields and locals are `camelCase`, constants are `PascalCase` (`CoinsKey`). References set in the Inspector are written `[SerializeField] Type name;` and are not `public`.
 - Code style: 4-space indent, opening brace on its own line, `using` lines at the top of the file. Don't reformat existing lines just to change the style.
-- Services: screens only use the `Services` class (`Services.Coins`, `Services.Settings`, `Services.Save`). A new service gets an interface, an implementation, a property in `Services.cs`, and is created in `Bootstrap.Awake()`. A service that needs to save gets `ISaveService` in its constructor.
+- Services: screens only use the `Services` class (`Services.Save`, `Services.Settings`, `Services.Config`) and `GameSystems.Coins`. A new service gets an interface, an implementation, a property in `Services.cs`, and is created in `Bootstrap.Awake()`. A service that needs to save gets `ISaveService` in its constructor.
+- Economy: every economy number (rewards, prices, growth) lives in `EconomyConfig` and is read with `Services.Config.Economy`. Don't write economy numbers in scripts. The script `EconomyConfig.cs` is in `Scripts/Services/`, the asset (Create → Game → Economy Config) in `Assets/Config/`.
 - Saving: only `PlayerPrefsSaveService` touches `PlayerPrefs`. `ISaveService` only saves ints (a bool is 1/0).
 - Scenes: scenes are loaded by name (`"Home"`, `"Level"`) and must be in the Scene List.
 - Comments: short comments that say what a script is for and which button or event it connects to, as in the existing scripts.
