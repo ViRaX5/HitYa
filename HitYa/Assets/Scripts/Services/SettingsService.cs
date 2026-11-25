@@ -4,7 +4,10 @@ using UnityEngine;
 public class SettingsService : ISettingsService
 {
     private const string SoundOnKey = "soundOn";
+    private const string MusicVolumeKey = "musicVolume";
     private readonly ISaveService save;
+
+    public event Action MusicVolumeChanged;
 
     public SettingsService(ISaveService saveService)
     {
@@ -19,6 +22,17 @@ public class SettingsService : ISettingsService
         {
             save.SetInt(SoundOnKey, value ? 1 : 0);
             AudioListener.pause = !value;    // sound off = pause all audio
+        }
+    }
+
+    // 0-100, saved as an int. Full volume by default.
+    public int MusicVolume
+    {
+        get => save.GetInt(MusicVolumeKey, 100);
+        set
+        {
+            save.SetInt(MusicVolumeKey, Mathf.Clamp(value, 0, 100));
+            MusicVolumeChanged?.Invoke();
         }
     }
 }
