@@ -5,14 +5,15 @@ using UnityEngine;
 public class EconomyConfig : ScriptableObject
 {
     [Header("Sources")]
-    public int coinsPerLevel = 10;
+    public int metersPerCoin = 10;   // step
+    public int coinsPerStep = 1;     // coins for each step
     public int dailyGift = 24;
     public int adReward = 10;
     public int questReward = 20;
 
     [Header("Upgrade, the big sink")]
     public int upgradeBaseCost = 40;
-    public float upgradeGrowth = 1.3f;
+    public float upgradeGrowth = 1.35f;
     public int upgradeMaxLevel = 10;
     public int boosterPrice = 100;
 
