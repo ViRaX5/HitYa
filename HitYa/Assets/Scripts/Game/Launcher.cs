@@ -54,8 +54,9 @@ public class Launcher : MonoBehaviour
 
         float radians = (float)angleDegrees * Mathf.Deg2Rad;
         float speed = (float)power * powerMultiplier;
-        if (BatCatalog.Equipped == BatCatalog.GoldenSlugger && BatCatalog.Owns(BatCatalog.GoldenSlugger))
-            speed *= 1.25f;
+        int bat = BatCatalog.Equipped;
+        if (BatCatalog.Owns(bat))
+            speed *= 1f + BatCatalog.PowerBonus(bat) / 100f;     // the equipped bat's bonus from EconomyConfig
 
         rb.linearVelocity = new Vector2(
             Mathf.Cos(radians) * speed,

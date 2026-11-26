@@ -21,3 +21,10 @@ MonoBehaviour:
   upgradeGrowth: 1.35
   upgradeMaxLevel: 10
   boosterPrice: 100
+  batPowerBonusPercent:
+  - 0
+  - 5
+  - 10
+  - 25
+  - 15
+  - 20
