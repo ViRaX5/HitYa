@@ -20,10 +20,8 @@ public class CoinService : ICoinService
 
     public int AwardForDistance(int distance)
     {
-        int reward = 0;
-        if (distance >= 500) reward += 5;
-        if (distance >= 1000) reward += 10;
-        if (distance >= 1500) reward += 20;
+        EconomyConfig economy = Services.Config.Economy;
+        int reward = distance / economy.metersPerCoin * economy.coinsPerStep;
         AddCoins(reward);
         return reward;
     }
