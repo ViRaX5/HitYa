@@ -17,8 +17,12 @@ public class EconomyConfig : ScriptableObject
     public int upgradeMaxLevel = 10;
     public int boosterPrice = 100;
 
+    [Header("Bats")]
+    public int[] batPowerBonusPercent = { 0, 5, 10, 25, 15, 20 };   // hit power bonus by bat id: Classic Wood, Steel Bat, Neon Zap, Golden Slugger, Candy Cane, Flame Bat
+
 
     // Price of the next upgrade: base × growth, once per level bought. Same as the sheet.
+    // Rounds .5 and above up and below .5 down (Mathf.RoundToInt would round .5 to the even number).
     public int UpgradeCost(int level) =>
-        Mathf.RoundToInt(upgradeBaseCost * Mathf.Pow(upgradeGrowth, level));
+        Mathf.FloorToInt(upgradeBaseCost * Mathf.Pow(upgradeGrowth, level) + 0.5f);
 }
