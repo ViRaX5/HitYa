@@ -18,6 +18,15 @@ public class CoinService : ICoinService
         save.SetInt(CoinsKey, checked(Balance + amount));
     }
 
+    public bool TryPurchase(int amount, string ownershipKey)
+    {
+        int balance = Balance;
+        if (amount <= 0 || amount > balance || save.GetInt(ownershipKey) != 0) return false;
+
+        save.SetInts(CoinsKey, balance - amount, ownershipKey, 1);
+        return true;
+    }
+
     public int AwardForDistance(int distance)
     {
         EconomyConfig economy = Services.Config.Economy;

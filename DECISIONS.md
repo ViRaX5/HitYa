@@ -1,3 +1,9 @@
+## 26-11-2026 - Shop navigation and bat purchases
+Options: Keep Shop as a standalone scene / open Shop from Home
+Chose: Open Shop from Home. Enable coin-priced bat purchases and equipment. Keep Skins and Coins as display-only tabs while the bat catalog is tested.\
+AI: Built the Unity layout from the mockup, generated bat thumbnails.\
+Who: Valeri + codex.
+
 ## 25-11-2026 - Distance Rewards
 Options: 10 coins per 10 meters / 1 coin per 10 meters / 10 coins per 100 meters.\
 Chose: 1 coin per 10 meters. With the current run max distance (before perfect bounce) being around 100 meters, and first upgrade (for now) costing 50 gold, this will make almost every run rewarding and progress you towards end goal, doesn't make it over tuned, make sure that bad runs (under 10) are not rewarded at all. Makes first upgrade achieveable in first session (with each round being a few seconds-minute long).\

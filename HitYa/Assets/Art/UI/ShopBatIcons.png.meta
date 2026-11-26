@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: 66110847d65bd1148a1f6182c67351a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9041376762568684991
+    second: ShopBatIcons_0
+  - first:
+      213: -9084024473108612480
+    second: ShopBatIcons_1
+  - first:
+      213: -8331902376755996006
+    second: ShopBatIcons_2
+  - first:
+      213: 6502779189999092089
+    second: ShopBatIcons_3
+  - first:
+      213: -6663249595913204712
+    second: ShopBatIcons_4
+  - first:
+      213: 6066503249392407054
+    second: ShopBatIcons_5
+  - first:
+      213: 4045934595015879072
+    second: ShopBatIcons_6
+  - first:
+      213: 8014413346523443838
+    second: ShopBatIcons_7
+  - first:
+      213: 1503155385440575769
+    second: ShopBatIcons_8
+  - first:
+      213: -3080120345991255882
+    second: ShopBatIcons_9
+  - first:
+      213: 2297149325293746409
+    second: ShopBatIcons_10
+  - first:
+      213: 1154613774971934720
+    second: ShopBatIcons_11
+  - first:
+      213: -3480698832100573136
+    second: ShopBatIcons_12
+  - first:
+      213: 1991731266021363014
+    second: ShopBatIcons_13
+  - first:
+      213: -6324684350808703515
+    second: ShopBatIcons_14
+  - first:
+      213: -2420950008951805816
+    second: ShopBatIcons_15
+  - first:
+      213: -8168985201904862837
+    second: ShopBatIcons_16
+  - first:
+      213: -7266048838059803232
+    second: ShopBatIcons_17
+  - first:
+      213: -6954154543425761181
+    second: ShopBatIcons_18
+  - first:
+      213: 2312480377215714826
+    second: ShopBatIcons_19
+  - first:
+      213: 8758368249137438006
+    second: ShopBatIcons_20
+  - first:
+      213: 2106723813416564256
+    second: ShopBatIcons_21
+  - first:
+      213: -958010815257167112
+    second: ShopBatIcons_22
+  - first:
+      213: -8837842318337611151
+    second: ShopBatIcons_23
+  - first:
+      213: -6612598404800348231
+    second: ShopBatIcons_24
+  - first:
+      213: -8027022621789237026
+    second: ShopBatIcons_25
+  - first:
+      213: 4384110471321268761
+    second: ShopBatIcons_26
+  - first:
+      213: -8194145362990008542
+    second: ShopBatIcons_27
+  - first:
+      213: -2696560638197560963
+    second: ShopBatIcons_28
+  - first:
+      213: -8560212769687828354
+    second: ShopBatIcons_29
+  - first:
+      213: 8093880066658518025
+    second: ShopBatIcons_30
+  - first:
+      213: 8361011807283595002
+    second: ShopBatIcons_31
+  - first:
+      213: 8551435557862581663
+    second: ShopBatIcons_32
+  - first:
+      213: -2366080491933247895
+    second: ShopBatIcons_33
+  - first:
+      213: -5881246467383125086
+    second: ShopBatIcons_34
+  - first:
+      213: -6749105892114915154
+    second: ShopBatIcons_35
+  - first:
+      213: 4364347372412802354
+    second: ShopBatIcons_36
+  - first:
+      213: -3977282218194899297
+    second: ShopBatIcons_37
+  - first:
+      213: -813865558898158351
+    second: ShopBatIcons_38
+  - first:
+      213: 501077329125586215
+    second: ShopBatIcons_39
+  - first:
+      213: 4478343455324780667
+    second: ShopBatIcons_40
+  - first:
+      213: 6302035161094379548
+    second: ShopBatIcons_41
+  - first:
+      213: 5643714946276221594
+    second: ShopBatIcons_42
+  - first:
+      213: -4026561021736124258
+    second: ShopBatIcons_43
+  - first:
+      213: 7246820855726226710
+    second: ShopBatIcons_44
+  - first:
+      213: 8301871762902012950
+    second: ShopBatIcons_45
+  - first:
+      213: -7436842145308586796
+    second: ShopBatIcons_46
+  - first:
+      213: 2220285611784294389
+    second: ShopBatIcons_47
+  - first:
+      213: 7907755350924295607
+    second: ShopBatIcons_48
+  - first:
+      213: -8577259046741907442
+    second: ShopBatIcons_49
+  - first:
+      213: -5052003448300773161
+    second: ShopBatIcons_50
+  - first:
+      213: 8627174382691829954
+    second: ShopBatIcons_51
+  - first:
+      213: -6742455633993870932
+    second: ShopBatIcons_52
+  - first:
+      213: 646353795405279350
+    second: ShopBatIcons_53
+  - first:
+      213: 4113680681587902131
+    second: ShopBatIcons_54
+  - first:
+      213: -3575645050165792934
+    second: ShopBatIcons_55
+  - first:
+      213: 2828485901318561971
+    second: ShopBatIcons_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShopBatIcons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 489
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a4f9adcb3968280800000000000000
+      internalID: -9041376762568684991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 427
+        width: 563
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08af765fedf0fe180800000000000000
+      internalID: -9084024473108612480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 473
+        width: 467
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad932cee22f5c80800000000000000
+      internalID: -8331902376755996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 984
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c2b858338e3a50800000000000000
+      internalID: 6502779189999092089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_4
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 985
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c04d1cbc16783a0800000000000000
+      internalID: -6663249595913204712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_5
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 989
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0299c8409c803450800000000000000
+      internalID: 6066503249392407054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_6
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 962
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a260f31c062830800000000000000
+      internalID: 4045934595015879072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_7
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 995
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72fdaaf97ae83f60800000000000000
+      internalID: 8014413346523443838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_8
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 950
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911a667ebd74cd410800000000000000
+      internalID: 1503155385440575769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 935
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8ecbf4dd63145d0800000000000000
+      internalID: -3080120345991255882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_10
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 787
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8792af32d11ef10800000000000000
+      internalID: 2297149325293746409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_11
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 785
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00899f56c13060010800000000000000
+      internalID: 1154613774971934720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_12
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 777
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030478e8ad212bfc0800000000000000
+      internalID: -3480698832100573136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_13
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 749
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d0e37a80d04ab10800000000000000
+      internalID: 1991731266021363014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_14
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 756
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed3391b7153a38a0800000000000000
+      internalID: -6324684350808703515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_15
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 737
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888e2792bce076ed0800000000000000
+      internalID: -2420950008951805816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 678
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89b9017d3fe1ae80800000000000000
+      internalID: -8168985201904862837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 689
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad3ec6341fc92b90800000000000000
+      internalID: -7266048838059803232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_18
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 647
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36050f59941ed7f90800000000000000
+      internalID: -6954154543425761181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_19
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 615
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06010aa6a4971020800000000000000
+      internalID: 2312480377215714826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 599
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d95edc489fb8970800000000000000
+      internalID: 8758368249137438006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 495
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026fc8a75269c3d10800000000000000
+      internalID: 2106723813416564256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_22
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 509
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa3d914d3674b2f0800000000000000
+      internalID: -958010815257167112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 503
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a62928c3da95580800000000000000
+      internalID: -8837842318337611151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_24
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 519
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf7f8f29c45b34a0800000000000000
+      internalID: -6612598404800348231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_25
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 525
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed05a3854794a9090800000000000000
+      internalID: -8027022621789237026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_26
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 513
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912bc23ee3d77dc30800000000000000
+      internalID: 4384110471321268761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_27
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 509
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227f011f43c884e80800000000000000
+      internalID: -8194145362990008542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 505
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d790fe4f264e39ad0800000000000000
+      internalID: -2696560638197560963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 511
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e788ef407d3043980800000000000000
+      internalID: -8560212769687828354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 513
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904cbc3990d335070800000000000000
+      internalID: 8093880066658518025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 477
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af64cffa0f7480470800000000000000
+      internalID: 8361011807283595002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 477
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f952b0a155dcca670800000000000000
+      internalID: 8551435557862581663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_33
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 470
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9665650245ef92fd0800000000000000
+      internalID: -2366080491933247895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 442
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab9b138f7d916ea0800000000000000
+      internalID: -5881246467383125086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_35
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 481
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0aefc03fb5652a0800000000000000
+      internalID: -6749105892114915154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_36
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 481
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2351319dfc6419c30800000000000000
+      internalID: 4364347372412802354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_37
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 477
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ee30525eaddc8c0800000000000000
+      internalID: -3977282218194899297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_38
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 479
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f453f2169194b4f0800000000000000
+      internalID: -813865558898158351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_39
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 481
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725388f0d2f24f600800000000000000
+      internalID: 501077329125586215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 447
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7834d435a5462e30800000000000000
+      internalID: 4478343455324780667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 15
+        width: 519
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c185d03e693557750800000000000000
+      internalID: 6302035161094379548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_42
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 485
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a926b5a87d0825e40800000000000000
+      internalID: 5643714946276221594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_43
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 300
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e900cf89518ce18c0800000000000000
+      internalID: -4026561021736124258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 326
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d34784c21e19460800000000000000
+      internalID: 7246820855726226710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 254
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614de96126c263370800000000000000
+      internalID: 8301871762902012950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 287
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc4a3e88770bc890800000000000000
+      internalID: -7436842145308586796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_47
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 310
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff4056100a00de10800000000000000
+      internalID: 2220285611784294389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 278
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd7986389dfdbd60800000000000000
+      internalID: 7907755350924295607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 281
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08617c575477f880800000000000000
+      internalID: -8577259046741907442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_50
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 255
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0ebf361ada3e9b0800000000000000
+      internalID: -5052003448300773161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_51
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 221
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c842bf6461e9b770800000000000000
+      internalID: 8627174382691829954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_52
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 215
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1d6fde25cfd62a0800000000000000
+      internalID: -6742455633993870932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_53
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 167
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6707b563a5f48f800800000000000000
+      internalID: 646353795405279350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_54
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b60f61e8cab61930800000000000000
+      internalID: 4113680681587902131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_55
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 153
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5febfd75c1c06ec0800000000000000
+      internalID: -3575645050165792934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopBatIcons_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 63
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b02b48f0fcc04720800000000000000
+      internalID: 2828485901318561971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShopBatIcons_0: -9041376762568684991
+      ShopBatIcons_1: -9084024473108612480
+      ShopBatIcons_10: 2297149325293746409
+      ShopBatIcons_11: 1154613774971934720
+      ShopBatIcons_12: -3480698832100573136
+      ShopBatIcons_13: 1991731266021363014
+      ShopBatIcons_14: -6324684350808703515
+      ShopBatIcons_15: -2420950008951805816
+      ShopBatIcons_16: -8168985201904862837
+      ShopBatIcons_17: -7266048838059803232
+      ShopBatIcons_18: -6954154543425761181
+      ShopBatIcons_19: 2312480377215714826
+      ShopBatIcons_2: -8331902376755996006
+      ShopBatIcons_20: 8758368249137438006
+      ShopBatIcons_21: 2106723813416564256
+      ShopBatIcons_22: -958010815257167112
+      ShopBatIcons_23: -8837842318337611151
+      ShopBatIcons_24: -6612598404800348231
+      ShopBatIcons_25: -8027022621789237026
+      ShopBatIcons_26: 4384110471321268761
+      ShopBatIcons_27: -8194145362990008542
+      ShopBatIcons_28: -2696560638197560963
+      ShopBatIcons_29: -8560212769687828354
+      ShopBatIcons_3: 6502779189999092089
+      ShopBatIcons_30: 8093880066658518025
+      ShopBatIcons_31: 8361011807283595002
+      ShopBatIcons_32: 8551435557862581663
+      ShopBatIcons_33: -2366080491933247895
+      ShopBatIcons_34: -5881246467383125086
+      ShopBatIcons_35: -6749105892114915154
+      ShopBatIcons_36: 4364347372412802354
+      ShopBatIcons_37: -3977282218194899297
+      ShopBatIcons_38: -813865558898158351
+      ShopBatIcons_39: 501077329125586215
+      ShopBatIcons_4: -6663249595913204712
+      ShopBatIcons_40: 4478343455324780667
+      ShopBatIcons_41: 6302035161094379548
+      ShopBatIcons_42: 5643714946276221594
+      ShopBatIcons_43: -4026561021736124258
+      ShopBatIcons_44: 7246820855726226710
+      ShopBatIcons_45: 8301871762902012950
+      ShopBatIcons_46: -7436842145308586796
+      ShopBatIcons_47: 2220285611784294389
+      ShopBatIcons_48: 7907755350924295607
+      ShopBatIcons_49: -8577259046741907442
+      ShopBatIcons_5: 6066503249392407054
+      ShopBatIcons_50: -5052003448300773161
+      ShopBatIcons_51: 8627174382691829954
+      ShopBatIcons_52: -6742455633993870932
+      ShopBatIcons_53: 646353795405279350
+      ShopBatIcons_54: 4113680681587902131
+      ShopBatIcons_55: -3575645050165792934
+      ShopBatIcons_56: 2828485901318561971
+      ShopBatIcons_6: 4045934595015879072
+      ShopBatIcons_7: 8014413346523443838
+      ShopBatIcons_8: 1503155385440575769
+      ShopBatIcons_9: -3080120345991255882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

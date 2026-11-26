@@ -13,6 +13,11 @@ public class ScreenFlow : MonoBehaviour
     {
         SceneManager.LoadScene("Home");
     }
+
+    public void Shop()                     // Shop button on Home
+    {
+        SceneManager.LoadScene("Shop");
+    }
 }
 
 // Both scenes must be in File → Build Profiles → Scene List. The first one opens on the phone.
