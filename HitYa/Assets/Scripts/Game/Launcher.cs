@@ -9,6 +9,16 @@ public class Launcher : MonoBehaviour
     [SerializeField] private float stopVelocityThreshold = 0.15f;
     [SerializeField] private float stopConfirmTime = 0.5f;
 
+    [SerializeField] private GameObject afraidVisual;
+
+    [SerializeField] private GameObject flyingVisual;
+
+    [SerializeField] private float animSpeedPerVelocity = 0.1f; // Tune this in the Inspector
+    
+    [SerializeField] private float maxAnimSpeed = 4f;
+
+    private Animator flyingAnimator;
+
     public int CurrentDistance { get; private set; }
     public event Action<int> OnLanded;
 
@@ -22,10 +32,18 @@ public class Launcher : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.simulated = false;
+        if (afraidVisual != null) afraidVisual.SetActive(true);
+        if (flyingVisual != null) flyingVisual.SetActive(false);
+        if (flyingVisual != null)
+        {
+            flyingAnimator = flyingVisual.GetComponent<Animator>();
+        }
     }
 
     public void Launch(double angleDegrees, double power)
     {
+        if (afraidVisual != null) afraidVisual.SetActive(false);
+        if (flyingVisual != null) flyingVisual.SetActive(true);
         startX = transform.position.x;
         CurrentDistance = 0;
         flightTimer = 0f;
@@ -49,6 +67,12 @@ public class Launcher : MonoBehaviour
     {
         if (!isFlying) return;
 
+        if (flyingAnimator != null)
+        {
+            float currentSpeed = rb.linearVelocity.magnitude;
+            flyingAnimator.speed = Mathf.Clamp(currentSpeed * animSpeedPerVelocity, 0f, maxAnimSpeed);
+        }
+
         flightTimer += Time.fixedDeltaTime;
 
         // Track horizontal distance from launch point
@@ -67,6 +91,10 @@ public class Launcher : MonoBehaviour
                 rb.linearVelocity = Vector2.zero;
                 rb.simulated = false;
                 OnLanded?.Invoke(CurrentDistance);
+                if (flyingAnimator != null)
+                {
+                    flyingAnimator.speed = 0f;
+                }
             }
         }
         else
