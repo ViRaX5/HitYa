@@ -8,5 +8,12 @@ public class PlayerPrefsSaveService : ISaveService
         PlayerPrefs.SetInt(key, value);
         PlayerPrefs.Save();                  // write now: the phone may close us any time
     }
+
+    public void SetInts(string firstKey, int firstValue, string secondKey, int secondValue)
+    {
+        PlayerPrefs.SetInt(firstKey, firstValue);
+        PlayerPrefs.SetInt(secondKey, secondValue);
+        PlayerPrefs.Save();
+    }
 }
 
