@@ -25,3 +25,6 @@ https://drive.google.com/drive/folders/1G64X6NFM81XLDe_l3rAP5Q_RN46nhx2G?usp=sha
 # Architecture Diagram for Milestone 3:
 <img width="800" height="533" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/a3951145-b07d-49f3-b929-5ce5e8aad8fc" />
 
+# Economy Sheet for Milestone 4:
+https://docs.google.com/spreadsheets/d/1YK_5_2cNn3UXlHhu1a1o5z-_FmRATv3tCJDeEjC9_dQ/edit?usp=sharing
+
