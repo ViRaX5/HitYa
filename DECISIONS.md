@@ -1,3 +1,9 @@
+## 26-11-2026 - Shop prices use the upgrade curve directly
+Options: Keep paid bat prices between 50 and 500 coins / use each bat tier's full upgrade-curve price
+Chose: Use EconomyConfig to calculate each bat's full price from its tier, without price limits. The curve prices Steel Bat at 40 coins and Flame Bat at 596 coins. Golden Slugger's deal price is half its 596-coin full price: 298 coins. This replaces the earlier 50-to-500-coin limit.\
+AI: Assisted Valeri with the catalog and scene-preview updates, then verified the displayed prices and deductions in Unity Play Mode.\
+Who: Valeri chose the direct upgrade curve and contributed to its implementation; Codex assisted with implementation and testing.
+
 ## 26-11-2026 - Shop navigation and bat purchases
 Options: Keep Shop as a standalone scene / open Shop from Home
 Chose: Open Shop from Home. Enable coin-priced bat purchases and equipment. Keep Skins and Coins as display-only tabs while the bat catalog is tested.\
